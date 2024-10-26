@@ -1,1 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu-section {
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+}
+
+.chicken-bg {
+    background-image: url('path_to_your_chicken_background.jpg'); /* Replace with the actual path */
+}
+
+.beef-bg {
+    background-image: url('path_to_your_beef_background.jpg'); /* Replace with the actual path */
+}
+
+.sushi-bg {
+    background-image: url('path_to_your_sushi_background.jpg'); /* Replace with the actual path */
+}
 
