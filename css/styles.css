@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif; /* Применение Google Fonts */
+    background-color: #fff; /* Белый фон для всего тела */
 }
 
 h1, h2 {
@@ -21,10 +22,30 @@ p {
     z-index: 1000;
 }
 
+/* Стили для меню */
 .menu-section {
-    background-color: #f8f9fa; /* Светлый фон для секций */
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень для глубины */
+}
+
+/* Фоны для секций */
+#chicken {
+    background-color: #ffe5b4; /* Светлый оранжевый для Chicken */
+}
+
+#beef {
+    background-color: #ffcccb; /* Светлый розовый для Beef */
+}
+
+#sushi {
+    background-color: #e0ffff; /* Светлый голубой для Sushi */
+}
+
+/* Фон для заголовка "Our Menu" */
+h1 {
+    background-color: #e6e6fa; /* Светлый фиолетовый для заголовка */
+    padding: 10px;
+    border-radius: 5px;
 }
