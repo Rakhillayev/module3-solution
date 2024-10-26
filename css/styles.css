@@ -1,22 +1,30 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif; /* Применение Google Fonts */
+}
+
+h1, h2 {
+    font-weight: 700; /* Жирный шрифт для заголовков */
+    color: #333; /* Темный цвет для лучшего контраста */
+}
+
+p {
+    font-weight: 400; /* Обычный шрифт для параграфов */
+    color: #555; /* Более светлый цвет для текста */
+}
+
+/* Пользовательские стили для кнопки "Back to Top" */
+#backToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none; /* Скрыт по умолчанию */
+    z-index: 1000;
 }
 
 .menu-section {
-    background-size: cover;
-    background-position: center;
-    padding: 40px 0;
+    background-color: #f8f9fa; /* Светлый фон для секций */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень для глубины */
 }
-
-.chicken-bg {
-    background-image: url('path_to_your_chicken_background.jpg'); /* Replace with the actual path */
-}
-
-.beef-bg {
-    background-image: url('path_to_your_beef_background.jpg'); /* Replace with the actual path */
-}
-
-.sushi-bg {
-    background-image: url('path_to_your_sushi_background.jpg'); /* Replace with the actual path */
-}
-
